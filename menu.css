@@ -1,0 +1,34 @@
+/* modification du menu*/
+
+#navigation {
+width: 200px;
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+#navigation li {
+ font-family: 'Impact';
+ // background: #c00 ;
+  color: #fff ;
+ // border: 1px solid #600 ;
+  margin-bottom: 1px ;
+}
+
+#navigation li a{
+display: block;
+color: black;
+//background: red;
+/*background-color: white;*/
+line-height: 1em;
+text-align: center;
+text-decoration: none;
+padding: 4px 0;
+}
+
+#navigation li a:hover{ /*,#navigation li a:focus, #navigation li a:active {*/
+  background: #900 ;
+  text-decoration: underline ;
+}
+
+
